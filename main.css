@@ -1,0 +1,109 @@
+.navbar.navbar-custom {
+  background-color: white;
+}
+.navbar.navbar-custom .navbar-brand{
+    font-weight: bolder;
+    color: black;
+    font-family: cursive;
+    font-size: 25px;
+}
+.navbar.navbar-custom li .page-scroll{
+    font-weight: bolder;
+    color: black;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.cover{
+    text-align: center;
+    height: 100%;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 200px;
+    font-family: cursive;
+}
+
+.cover h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.cover h2{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.cover h3{
+    font-size: 30;
+    font-weight: 800;
+}
+
+.cover .scroll{
+    padding-bottom: 200px;
+}
+
+.col-sm-12{
+    text-align: center;
+}
+.intro-section{
+    padding-top: 5px;
+    text-align: center;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    background: url("http://www.10wallpaper.com:8080//wallpaper/1920x1080/1304/laptop_room_on_the_desk-Digital_products_HD_widescreen_Wallpaper_1920x1080.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 75px;
+    text-align: center;
+    background: #eee;
+    list-style-position: inside;
+}
+
+.round{
+    padding-bottom: 40px;
+}
+
+.projects-section {
+    height: 100%;
+    padding-top: 75px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 75px;
+    text-align: center;
+    background: #eee;
+}
+.scroll{
+    padding-top: 30px;
+    opacity: 1;
+}
+.btn{
+    width: 150px;
+    text-align: center;
+}
+
+.email-input{
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    min-height: 5vh;
+}
+.comment-input{
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    min-height: 20vh;
+}
+.email-button {
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #fff;
+    padding: 20px 50px;
+    font-family: 'robotomedium';
+}
