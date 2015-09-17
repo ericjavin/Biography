@@ -1,7 +1,7 @@
 <DOCTYPE! html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link href="css/scrolling-nav.css" rel="stylesheet">
 <!-- jQuery library -->
@@ -9,6 +9,7 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
         <meta charset="utf-8"> 
         <meta name="description" content="Eric West's personal biography and portfolio">
         <meta name="author" content="Eric West">
@@ -18,20 +19,25 @@
     </head>    
 
 <body>
-<!-- Create Nav, fixed on the screen and direct button to corresponding page-->    
+
 <nav class="navbar navbar-inverse navbar-custom navbar-fixed-top">
   <div class="container-fluid">
-    <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                </button>
-        
-                <a class="navbar-brand page-scroll" href="#intro">Eric West</a>
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Eric West</a>
     </div>
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#intro">Home</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
@@ -72,19 +78,31 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <h2>About Me</h2>
+                        </div>
+                     </div>
+                    <div class="row">
+                    <div class="col-md-6">
                         <div class="round">
-                    <img src="EricWest.jpg" class="img-circle" height="250" width="250" alt="Profile Picture">
+                    <img src="EricWest.jpg" class="img-responsive" alt="Profile Picture">
                 </div>
+                </div> 
+                
+                    <div class="col-md-6">
                         <p>As a senior majoring in IT at Syracuse University, I found a passion for designing and building applications. </p>
+                        <br>
                          <p> Armed with my knowledge of code I have set out to conquer the web.</p>
+                        <br>
                         <p>I am currently working to build full stack/responsive websites that are both easy to use and functional.</p>
+                        <br>
                         <p>I have experience developing web applications both in the classroom and as an intern at JP Morgan Chase. </p>
+                        <br>
                         <p>When I am not coding away on my computer, I enjoy playing 18, eating and traveling. </p>
 
                         </p>
                         
                     </div>
-            </div>
+           
+                </div>
         </div>
 </section>
     <!--Create list of projects... Projects to come... -->
