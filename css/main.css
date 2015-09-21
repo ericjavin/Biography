@@ -59,7 +59,7 @@
 
 .about-section{
     height: 100%;
-    padding-top: 75px;
+    padding-top: 65px;
     list-style-position: inside;
     background: url("http://adwyse.de/img/bg/bg-1.jpg") no-repeat center center;
     background-size: cover;
@@ -85,7 +85,7 @@ span.glyphicon{
 }
 .projects-section {
     height: 200%;
-    padding-top: 75px;
+    padding-top: 65px;
     text-align: center;
      background: url("https://s3.amazonaws.com/codecademy-content/projects/armando-perez/brand.jpg")no-repeat center center;
     background-size: cover;
